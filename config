@@ -1,0 +1,11 @@
+# SSH client configuration file
+# default for all hosts
+Host *
+     Ciphers blowfish-cbc,aes128-cbc,3des-cbc,cast128-cbc,arcfour,aes192-cbc,aes256-cbc
+     StrictHostKeychecking no
+     UserKnownHostsFile /dev/null
+     LogLevel ERROR
+     ForwardX11Trusted yes
+     ForwardX11 yes
+     Compression yes
+     CompressionLevel 6
