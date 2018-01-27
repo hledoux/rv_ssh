@@ -1,2 +1,2 @@
 # rv_ssh
-my SSh config
+my SSH config
